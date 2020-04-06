@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ajosh</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <style>
+    body {
+      margin: 0;
+    }
+    .par-body {
+      background-image: url("./img/final.jpg");
+      background-size: cover;
+      background-position: bottom;
+      background-attachment: fixed;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+    }
+    .content-par {
+      padding-top: 25%;
+      color: #fff;
+      padding-left: 57%;
+    }
+    .name-par span {
+      font-size: 30px !important;
+    }
+    .content-par span {
+      word-spacing: 3px;
+      letter-spacing: 1px;
+      line-height: 24px;
+      font-size: 20px;
+    }
+
+    /* media querty */
+    @media screen and (max-width: 600px) {
+      .par-body {
+        background-image: url("./img/house_sm.jpg");
+      }
+      .content-par {
+        padding-top: 285px;
+        color: #f9f7f7;
+        padding-left: 0%;
+      }
+      .content-par .name-par {
+        text-align: center;
+      }
+      .content-par .name-par .quots {
+        font-size: 20px !important;
+        font-weight: bold;
+      }
+      .content-par .address-par {
+        color: blue;
+        font-weight: bold;
+        padding-left: 6%;
+        padding-top: 10%;
+      }
+      .content-par .address-par .company-name{
+        padding-bottom: 5px;
+      }
+    }
+  </style>
+  <body>
+    <div class="par-body" id="par_body">
+      <div class="content-par">
+        <div class="name-par">
+          <span class="quots"
+            >"Create with the heart, build with the mind"</span
+          >
+        </div>
+        <div class="address-par">
+          <span class="company-name">Fantasy Home Builders</span><br />
+          <span >fantasyhome@gmail.com</span><br />
+          <span >9994914504</span><br />
+          <span >Konam</span>
+          <span >Kuzhithurai</span><br />
+          <span>629163</span><br>
+          <span >Kanya Kumari Dist</span><br />
+          <span >TamilNadu</span><br />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
