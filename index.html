@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ajosh</title>
+    <title>Fantasy Home Builders</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
@@ -33,7 +33,16 @@
       font-size: 20px;
     }
 
-    /* media querty / */
+    /* media querty */
+    @media screen and (min-width: 601px) {
+      .small-img{
+        display: none;
+      }
+      .lg-img{
+        height: 100%;
+        width: -webkit-fill-available;
+      }
+    }
     @media screen and (max-width: 600px) {
       .par-body {
         background-image: url("./img/house_sm.jpg");
@@ -60,6 +69,9 @@
         padding-bottom: 5px;
       }
 
+      .lg-img{
+        display: none;
+      }
       .small-img{
         position: absolute;
         height: 100%;
@@ -87,6 +99,7 @@
         </div>
       </div>
     </div> -->
-    <img src="./img/PicsArt_04-07-01.08.51.jpg" class="small-img" alt="fantasyhome">
+    <img src="./img/PicsArt_04-07-01.08.51.jpg" class="small-img"  alt="fantasyhome">
+    <img src="./img//PicsArt_04-07-01.08.51.jpg" class="lg-img"  alt="fantasyhome">
   </body>
 </html>
